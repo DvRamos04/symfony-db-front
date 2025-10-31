@@ -26,6 +26,9 @@ El objetivo es tener un panel limpio que lea los datos del backend y que solo se
 - Un **Client ID de Google** (OAuth Web) con **origin**:  
   `http://127.0.0.1:8001`
 
+<img width="1891" height="1273" alt="imagen" src="https://github.com/user-attachments/assets/64c7dfd2-074d-4b56-954f-61d43f6a5c5c" />
+<img width="572" height="306" alt="imagen" src="https://github.com/user-attachments/assets/08cc7a85-1e07-48b3-bc7e-099eac0046db" />
+
 ---
 
 ```env
@@ -48,8 +51,5 @@ GOOGLE_CLIENT_ID=xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.
     En Google Cloud Console → Credentials → OAuth Client ID (Web)
     Agregar en Authorized JavaScript origins:
     http://127.0.0.1:8001
-<img width="488" height="115" alt="imagen" src="https://github.com/user-attachments/assets/133ee2f4-242b-40e9-b24f-4f1af4a14e74" />
-<img width="1877" height="751" alt="imagen" src="https://github.com/user-attachments/assets/184c7c54-750d-437b-82fb-c53edc8584c9" />
-<img width="1899" height="1266" alt="imagen" src="https://github.com/user-attachments/assets/a23c4fb5-6fa4-4dc8-b4dc-7a4522bc80b7" />
-
+---
 
