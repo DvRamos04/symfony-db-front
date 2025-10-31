@@ -1,9 +1,3 @@
-# === WRITE FRONTEND README (symfony-db-front) ===
-$FRONT = "C:\Users\fbram\Downloads\Projects\symfony-db-front"
-if (!(Test-Path $FRONT)) { Write-Error "No existe la ruta $FRONT"; exit 1 }
-
-$readme = @'
-# symfony-db-front
 
 Frontend del proyecto. Hecho con **Symfony + Twig** para mostrar de forma simple los resultados del ETL, con autenticación vía **Google OAuth 2.0 (GIS)**.  
 El objetivo es tener un panel limpio que lea los datos del backend y que solo se acceda después de iniciar sesión con Google.
